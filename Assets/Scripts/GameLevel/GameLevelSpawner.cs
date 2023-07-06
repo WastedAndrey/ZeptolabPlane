@@ -63,9 +63,9 @@ namespace Assets.Scripts.GameLevel
 
         private void SpawnAll()
         {
-            if (_spawnDataIndex < _spawnSettings.SpawnDataCount - 1)
-                _spawnDataIndex++;
-            else _isActive = false;
+            _spawnDataIndex++;
+            if (_spawnDataIndex >= _spawnSettings.SpawnDataCount - 1)
+                _isActive = false;
 
             for (int i = 0; i < _spawnData.UnitsCount; i++)
             {
