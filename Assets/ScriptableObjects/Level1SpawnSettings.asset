@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c6531fdb5ebfd4e8e55f7b2b85a89f, type: 3}
+  m_Name: Level1SpawnSettings
+  m_EditorClassIdentifier: 
+  _enemiesSpawnBorders:
+    BorderHorizontal: {x: -5.7, y: 5.7}
+    BorderVertical: {x: 0.3, y: 3.7}
+  _enemiesSpawnOffset: {x: 0, y: 0, z: 50}
+  _spawnData:
+  - _unitPrefab: {fileID: 7013544054284137261, guid: 2596e1cee2fc3534d9e32f285d2080c1, type: 3}
+    _unitsCount: 1
+    _timeDelay: 2
+  - _unitPrefab: {fileID: 7013544054284137261, guid: 2596e1cee2fc3534d9e32f285d2080c1, type: 3}
+    _unitsCount: 1
+    _timeDelay: 2
+  - _unitPrefab: {fileID: 7013544054284137261, guid: 2596e1cee2fc3534d9e32f285d2080c1, type: 3}
+    _unitsCount: 1
+    _timeDelay: 2
+  - _unitPrefab: {fileID: 7013544054284137261, guid: 2596e1cee2fc3534d9e32f285d2080c1, type: 3}
+    _unitsCount: 1
+    _timeDelay: 2
+  - _unitPrefab: {fileID: 7013544054284137261, guid: 2596e1cee2fc3534d9e32f285d2080c1, type: 3}
+    _unitsCount: 1
+    _timeDelay: 2
+  - _unitPrefab: {fileID: 7013544054284137261, guid: 2596e1cee2fc3534d9e32f285d2080c1, type: 3}
+    _unitsCount: 1
+    _timeDelay: 2
+  - _unitPrefab: {fileID: 7013544054284137261, guid: 6b80a07fb3375984fbf0321a13b6097a, type: 3}
+    _unitsCount: 1
+    _timeDelay: 4
+  - _unitPrefab: {fileID: 7013544054284137261, guid: 6b80a07fb3375984fbf0321a13b6097a, type: 3}
+    _unitsCount: 1
+    _timeDelay: 4
